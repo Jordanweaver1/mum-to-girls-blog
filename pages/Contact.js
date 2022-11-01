@@ -1,6 +1,5 @@
-import React, { useState } from "react";
-import { PostWidget } from "../components";
-import { Link } from "react-router-dom";
+import React, { useState } from 'react';
+import { PostWidget } from '../components';
 
 const FORM_ENDPOINT = "https://public.herotofu.com/v1/029341d0-59d3-11ed-b82c-5d75eaa7ccff"; // TODO - fill on the later step
 
@@ -11,20 +10,6 @@ const ContactForm = () => {
       setSubmitted(true);
     }, 100);
   };
-
-  const ButtonMailto = ({ mailto, label }) => {
-    return (
-        <Link
-            to='#'
-            onClick={(e) => {
-                window.location.href = mailto;
-                e.preventDefault();
-            }}
-        >
-            {label}
-        </Link>
-    );
-};
 
   if (submitted) {
     return (
