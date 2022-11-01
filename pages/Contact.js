@@ -17,7 +17,7 @@ const ContactForm = () => {
       <div className="bg-white shadow-lg text-center rounded-lg p-8 pb-12 m-4">
       <h1 className="mb-4 lg:col-span-2 opacity-80">If you would like to get in touch about a collaboration or find out about my {"\n"}
       Instagram or Blog post prices - please fill out the form below.</h1>
-      <h1 className="mb-4 lg:col-span-2 opacity-80">Alternatively, email me at dionneandrubymaya@gmail.com</h1>
+      <h1 className="mb-4 lg:col-span-2 opacity-80">Alternatively, email me at <button  className="text-blue-600 underline"onClick={() => window.location = 'mailto:dionneandruby2019@gmail.com'}>dionneandruby2019@gmail.com</button></h1>
         <div className="bg-white shadow-lg text-center rounded-lg w-6/12 h-60 pt-14">
         <div className="text-2xl">Thank you!</div>
         <div className="text-md">We'll be in touch soon.</div>
@@ -31,7 +31,7 @@ const ContactForm = () => {
     <div className="bg-white grid shadow-lg rounded-lg lg:p-8 p-2 pb-12 mb-8 lg:grid-cols-3">
       <h1 className="mb-4 lg:col-span-2 opacity-80">If you would like to get in touch about a collaboration or find out about my {"\n"}
       Instagram or Blog post prices - please fill out the form below.</h1>
-      <h1 className="mb-4 lg:col-span-2 opacity-80">Alternatively, email me at <button  className="text-blue-600 underline"onClick={() => window.location = 'mailto:dionneandrubymaya@gmail.com'}>dionneandrubymaya@gmail.com</button></h1>
+      <h1 className="mb-4 lg:col-span-2 opacity-80">Alternatively, email me at <button  className="text-blue-600 underline"onClick={() => window.location = 'mailto:dionneandruby2019@gmail.com'}>dionneandruby2019@gmail.com</button></h1>
       <div className="lg:col-span-2 mt-8 mb-4">
     <form
       action={FORM_ENDPOINT}
