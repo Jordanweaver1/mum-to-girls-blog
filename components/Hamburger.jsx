@@ -62,7 +62,7 @@ const Hamburger = () => {
             <div onClick={() => setIsNavOpen(false)}>
             {categories.map((category, index) => (
             <Link key={index} href={`/category/${category.slug}`}>
-              <span className="cursor-pointer font-semibold transition duration-700 lg:m-4 m-2 hover:bg-pink-200 lg:p-4 p-4 flex flex-col">{category.name}</span>
+              <span className="cursor-pointer w-80 bg-gray-100 font-semibold transition duration-700 lg:m-4 m-2 hover:bg-pink-200 lg:p-4 p-4 flex flex-col">{category.name}</span>
             </Link>
           ))}
             </div>
