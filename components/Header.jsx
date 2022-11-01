@@ -56,11 +56,11 @@ const Header = () => {
           <div className={` lg:inline-block shadow-card transition-all`}>
           {categories.map((category, index) => (
             <Link key={index} href={`/category/${category.slug}`}>
-              <span className="cursor-pointer font-semibold transition duration-700 lg:m-4 m-1 hover:bg-pink-200 lg:p-4 p-3 inline-block">{category.name}</span>
+              <span className="cursor-pointer font-semibold transition duration-700 lg:m-4 m-1 hover:bg-pink-200 lg:p-4 p-2 inline-block">{category.name}</span>
             </Link>
           ))}
           </div>
-          <div className='inline-block transition duration-700 lg:m-4 m-1 hover:bg-pink-200 lg:p-4 p-3'>
+          <div className='inline-block transition duration-700 lg:m-4 m-1 hover:bg-pink-200 lg:p-4 p-2'>
           <Link href="/Contact">
             <span className='cursor-pointer font-semibold'>Work with me</span>
           </Link>
