@@ -46,7 +46,7 @@ const PostDetail = ({ post }) => {
   return (
     <>
       <div className="bg-white shadow-lg rounded-lg lg:p-4 pb-12 mb-8">
-        <div className="relative shadow-md inline-block rounded-md w-full h-96 mb-6">
+        <div className="relative shadow-md inline-block rounded-md w-full h-60 lg:h-96 mb-6">
         { <div className="relative shadow-md rounded-lg inline-block w-full h-full lg:h-full mb-6">
         <Image
         unoptimized
