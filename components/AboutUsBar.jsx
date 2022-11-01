@@ -37,7 +37,7 @@ const AboutUsBar = ({ categories, slug }) => {
               src={Dionne}
             />
     </div>
-      <h3 className="text-center w-full text-xl mb-8 mt-6 pb-4">Mummy is a milf</h3>
+      <h3 className="text-center w-full text-xl mb-8 mt-6 pb-4">Mummy is beautiful</h3>
       <h3 className="text-center w-full text-xl mb-4 font-semibold pb-4">Ruby!</h3>
           <div className="relative inline-block w-100 h-60 mb-8">
             <Image
