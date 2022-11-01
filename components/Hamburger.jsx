@@ -65,6 +65,14 @@ const Hamburger = () => {
               <span className="cursor-pointer w-80 bg-pink-200 font-semibold transition duration-700 lg:m-4 m-2 lg:p-4 p-4 flex flex-col">{category.name}</span>
             </Link>
           ))}
+          <div className='mt-8'>
+            <Link href='/Contact'>
+            <span className="cursor-pointer w-80 bg-pink-200 font-semibold transition duration-700 lg:m-4 m-2 lg:p-4 p-4 flex flex-col">Work With Me</span>
+            </Link>
+            <Link href='https://www.instagram.com/dionneandrubymaya/?hl=en'>
+            <span className="cursor-pointer w-80 bg-pink-200 font-semibold transition duration-700 lg:m-4 m-2 lg:p-4 p-4 flex flex-col">Follow Me!</span>
+            </Link>
+            </div>
             </div>
           </div>
         </section>

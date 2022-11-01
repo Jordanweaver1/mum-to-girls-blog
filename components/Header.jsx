@@ -64,7 +64,7 @@ const Header = () => {
           </div>
           <div className='inline-block transition duration-700 lg:m-4 m-1 hover:bg-pink-200 lg:p-4 p-2'>
           <Link href="/Contact">
-            <span className='cursor-pointer font-semibold'>Work with me</span>
+            <span className='cursor-pointer font-semibold'>Work With Me</span>
           </Link>
           </div>
           <div className='inline-flex transition duration-700 lg:m-4 m-1  hover:bg-pink-200 lg:p-4 p-3' target="_blank">
