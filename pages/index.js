@@ -5,8 +5,8 @@ import { getPosts } from '../services';
 
 export default function Home({ posts }) {
   return (
-    <div className="container mx-auto px-10 mb-4">
-      <div className="grid grid-cols-1 lg:grid-cols-3 gap-4">
+    <div className="container mx-auto lg:px-10 p-2 mb-4">
+      <div className="grid grid-cols-1 lg:grid-cols-3 lg:gap-4">
         <div className="lg:col-span-1 col-span-1">
           {posts.slice(0).reverse().map((post, index) => {
             if (index === 0 || index % 2 ===0){

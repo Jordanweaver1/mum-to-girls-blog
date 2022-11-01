@@ -21,7 +21,7 @@ const Header = () => {
   const showHiddenMenu = () => setMenuHidden(!menuHidden);
 
   return (
-    <div className="container text-center mx-4 space-y-2">
+    <div className="container text-center space-y-2">
       <div className="border-b w-full lg:inline-block border-blue-400 pt-8  items-center">
       {<div className="items-center h-100">
       <Link href="/">
@@ -29,7 +29,7 @@ const Header = () => {
         unoptimized
         loader={graphCMSImageLoader}
         alt='logo'
-        className="shadow-lg rounded-t-lg lg:rounded-lg cursor-pointer w-50 h-50 inline-block"
+        className="shadow-lg rounded-t-lg lg:rounded-lg cursor-pointer w-50 h-50 lg:inline-block"
         layout=""
         src={logo}
       />

@@ -22,7 +22,7 @@ const CategoryPost = ({ posts }) => {
   }
 
   return (
-    <div className="container mx-auto px-10 mb-4">
+    <div className="container mx-auto lg:px-10 p-2 mb-4">
       <div className="lg:col-span-2 bg-white shadow-lg p-0 mt-2 pt-4 pb-4 text-3xl mb-2 rounded-lg text-center font-semibold">
           {categories.map((category, index) => {
             if(`/category/${category.slug}` === `${window.location.pathname}`){

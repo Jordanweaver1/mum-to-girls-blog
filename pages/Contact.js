@@ -28,11 +28,11 @@ const ContactForm = () => {
   }
 
   return (
-    <div className="bg-white grid shadow-lg rounded-lg p-8 pb-12 mb-8 lg:grid-cols-3">
+    <div className="bg-white grid shadow-lg rounded-lg lg:p-8 p-2 pb-12 mb-8 lg:grid-cols-3">
       <h1 className="mb-4 lg:col-span-2 opacity-80">If you would like to get in touch about a collaboration or find out about my {"\n"}
       Instagram or Blog post prices - please fill out the form below.</h1>
       <h1 className="mb-4 lg:col-span-2 opacity-80">Alternatively, email me at <button  className="text-blue-600 underline"onClick={() => window.location = 'mailto:dionneandrubymaya@gmail.com'}>dionneandrubymaya@gmail.com</button></h1>
-      <div className="lg:col-span-2 mt-8">
+      <div className="lg:col-span-2 mt-8 mb-4">
     <form
       action={FORM_ENDPOINT}
       onSubmit={handleSubmit}
