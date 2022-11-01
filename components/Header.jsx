@@ -22,7 +22,7 @@ const Header = () => {
 
   return (
     <div className="container text-center mx-4 space-y-2">
-      <div className="border-b w-full inline-block border-blue-400 pt-8  items-center">
+      <div className="border-b w-full lg:inline-block border-blue-400 pt-8  items-center">
       {<div className="items-center h-100">
       <Link href="/">
       <Image
@@ -36,12 +36,12 @@ const Header = () => {
       </Link>
       </div>}
         <div className=" md:float-left md:contents items-p-2">
-          <div className='inline-block hidden transition duration-700 m-4 hover:bg-pink-200 p-4'>
+          <div className='inline-block hidden transition duration-700 lg:m-4 hover:bg-pink-200 p-4'>
           <Link href="/AboutUs">
             <span className='cursor-pointer font-semibold'>About Us</span>
           </Link>
           </div>
-          <button onClick={showHiddenMenu} className="peer hidden bg-white hover:bg-pink-200 text-black font-semibold p-4 transition duration-700 m-4 inline-flex items-center ">
+          <button onClick={showHiddenMenu} className="peer hidden bg-white hover:bg-pink-200 text-black font-semibold p-4 transition duration-700 lg:m-4 inline-flex items-center ">
             <span className="mr-1">Categories</span>
           <svg
             className="fill-current h-4 w-4"
@@ -53,10 +53,10 @@ const Header = () => {
             />
           </svg>
           </button>
-          <div className={` inline-block shadow-card transition-all`}>
+          <div className={` lg:inline-block shadow-card transition-all`}>
           {categories.map((category, index) => (
             <Link key={index} href={`/category/${category.slug}`}>
-              <span className="cursor-pointer font-semibold transition duration-700 m-4 hover:bg-pink-200 p-4 inline-block">{category.name}</span>
+              <span className="cursor-pointer font-semibold transition duration-700 lg:m-4 hover:bg-pink-200 p-4 inline-block">{category.name}</span>
             </Link>
           ))}
           </div>

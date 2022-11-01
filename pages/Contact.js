@@ -43,7 +43,7 @@ const ContactForm = () => {
           type="text"
           placeholder="Your name"
           name="name"
-          className="px-3 py-5 placeholder-gray-400 text-gray-600 relative bg-white rounded text-sm border-0 shadow outline-none w-3/6 focus:outline-none focus:ring"
+          className="px-3 py-5 placeholder-gray-400 text-gray-600 relative bg-white rounded text-sm border-0 shadow outline-none w-full md:w-2/4 lg:w-3/6 focus:outline-none focus:ring"
           required
         />
       </div>
@@ -52,7 +52,7 @@ const ContactForm = () => {
           type="email"
           placeholder="Email"
           name="email"
-          className="px-3 py-5 placeholder-gray-400 text-gray-600 relative bg-white rounded text-sm border-0 shadow outline-none focus:outline-none focus:ring w-3/6"
+          className="px-3 py-5 placeholder-gray-400 text-gray-600 relative bg-white rounded text-sm border-0 shadow outline-none focus:outline-none focus:ring w-full md:w-2/4 lg:w-3/6"
           required
         />
       </div>
@@ -61,7 +61,7 @@ const ContactForm = () => {
           type="business"
           placeholder="Business Name"
           name="business"
-          className="px-3 py-5 placeholder-gray-400 text-gray-600 relative bg-white rounded text-sm border-0 shadow outline-none focus:outline-none focus:ring w-3/6"
+          className="px-3 py-5 placeholder-gray-400 text-gray-600 relative bg-white rounded text-sm border-0 shadow outline-none focus:outline-none focus:ring w-full md:w-2/4 lg:w-3/6"
           required
         />
       </div>
@@ -69,7 +69,7 @@ const ContactForm = () => {
         <textarea
           placeholder="Your message"
           name="message"
-          className="px-3 py-5 placeholder-gray-400 text-gray-600 relative bg-white rounded text-sm border-0 shadow outline-none focus:outline-none focus:ring w-3/6"
+          className="px-3 py-5 placeholder-gray-400 text-gray-600 relative bg-white rounded text-sm border-0 shadow outline-none focus:outline-none focus:ring w-full md:w-2/4 lg:w-3/6"
           required
         />
       </div>
