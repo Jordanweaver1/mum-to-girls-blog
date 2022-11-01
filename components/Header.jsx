@@ -5,6 +5,7 @@ import { graphCMSImageLoader } from '../util';
 import Image from 'next/image';
 import logo from '../images/logo.png';
 import { AboutUs } from '../pages/AboutUs';
+import Hamburger from './Hamburger';
 
 
 const Header = () => {
@@ -22,14 +23,15 @@ const Header = () => {
 
   return (
     <div className="container text-center space-y-2">
-      <div className="border-b w-full lg:inline-block border-blue-400 pt-8  items-center">
-      {<div className="items-center h-100">
+        <Hamburger />
+      <div className="hidden border-b w-full lg:inline-block border-blue-400 pt-8  items-center">
+      {<div className="items-center h-100 p-4">
       <Link href="/">
       <Image
         unoptimized
         loader={graphCMSImageLoader}
         alt='logo'
-        className="shadow-lg rounded-t-lg lg:rounded-lg cursor-pointer w-50 h-50 lg:inline-block"
+        className="shadow-lg rounded-t-lg lg:rounded-lg cursor-pointer w-50 h-50 inline-block"
         layout=""
         src={logo}
       />
