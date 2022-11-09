@@ -16,7 +16,7 @@ export default function Home({ posts }) {
         <div className="lg:col-span-1 col-span-1">
           {posts.slice(0).reverse().map((post, index) => {
             if ( index % 2 !== 0){
-              return(
+            return(
             <PostCard key = {index} post={post.node} />)}})}
         </div>
         <div className="lg:col-span-1 col-span-1 relative lg:sticky">
